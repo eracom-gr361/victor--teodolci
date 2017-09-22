@@ -25,10 +25,12 @@
 
 html {
 	font-family: selectricroman, serif;
+	color: black;
 }
 
 h1 {
 	font-family: selectricmono, monospace;
+	color: white
 }
 
 
@@ -44,3 +46,59 @@ html {
   box-sizing: inherit;
 }
 
+body {
+	background: linear-gradient(135deg, white, grey);
+}
+
+h1 {
+	width: 760px;
+	padding: 10px;
+	border: 2px;
+	margin: 40px;
+	text-align: center;
+	text-shadow: 2px 2px grey;
+	border: 5px dotted grey;
+	padding:35px;
+	background: none;
+}
+
+.div1 {
+	width: 800px;
+	padding: 10px;
+	border: 2px;
+	margin: 20px;
+	text-align: left;
+	word-spacing: -0.02em;
+	text-indent: 30px;
+	orphans: 3;
+	widows: 2;
+	border-style: dotted;
+    border-right-color: grey;
+		border-left-color: white;
+		border-bottom-color: grey;
+		border-top-color: white
+
+}
+
+.div2 {
+	width: 738px;
+	padding: 10px;
+	border: 2px;
+	margin: 30px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	text-align: justify;
+	padding: 1em;
+	column-count: 2;
+	column-gap: 3.5em;
+	transform: rotate(-7deg);
+}
+
+.p2 {
+	margin-top: -35px;
+	hyphens: auto;
+}
+
+.p3 {
+	hyphens: manual; 	/* don't forgot to add &shy */
+}
